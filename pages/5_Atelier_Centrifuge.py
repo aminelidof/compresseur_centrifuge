@@ -103,7 +103,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 with st.expander("✅ Voir la Solution Détaillée"):
     st.markdown('<div class="sol-card">', unsafe_allow_html=True)
-    st.write("**Formule de Stanitz** : σ = 1 - 1.98/<i>Z</i>", unsafe_allow_html=True)
+    st.write("**Formule de Stanitz** : σ = 1 - (1.98/<i>Z</i>)", unsafe_allow_html=True)
     st.write("- Pour $Z=12$ : $\sigma = 0.835$")
     st.write("- Pour $Z=24$ : $\sigma = 0.917$")
     st.info("💡 Plus le nombre d'aubes est élevé, plus le fluide suit l'angle de la pale (glissement réduit).")
