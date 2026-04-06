@@ -123,7 +123,11 @@ with st.expander("✅ Voir la Solution Détaillée"):
     st.write("1. **Giration ($C_{w2}$)** : $C_{w2} = \sigma \cdot U_2 = 360 \, m/s$")
     st.write("2. **Vitesse absolue ($C_2$)** :")
     st.latex(r"C_2 = \sqrt{360^2 + 120^2} \approx 379.5 \, m/s")
-    st.write("3. **Angle de sortie ($\alpha_2$)** : $\tan \alpha_2 = 360/120 \implies \alpha_2 \approx 71.5^\circ$")
+#    st.write("3. **Angle de sortie ($\alpha_2$)** : $\tan \alpha_2 = 360/120 \implies \alpha_2 \approx 71.5^\circ$")
+#    st.markdown('</div>', unsafe_allow_html=True)
+
+    st.write("3. **Angle de sortie ($\alpha_2$)** : ")
+    st.latex(r'\tan \alpha_2 = \frac{360}{120} \implies \alpha_2 \approx 71.5^\circ')
     st.markdown('</div>', unsafe_allow_html=True)
 
 # --- EXERCICE 5 : DIMENSIONNEMENT ---
