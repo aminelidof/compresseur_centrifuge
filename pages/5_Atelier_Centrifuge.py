@@ -126,7 +126,7 @@ with st.expander("✅ Voir la Solution Détaillée"):
 #    st.write("3. **Angle de sortie ($\alpha_2$)** : $\tan \alpha_2 = 360/120 \implies \alpha_2 \approx 71.5^\circ$")
 #    st.markdown('</div>', unsafe_allow_html=True)
 
-    st.write("3. **Angle de sortie ($\alpha_2$)** : ")
+    st.write("3. **Angle de sortie (α<sub>2</sub>)** : ", unsafe_allow_html=True)
     st.latex(r'\tan \alpha_2 = \frac{360}{120} \implies \alpha_2 \approx 71.5^\circ')
     st.markdown('</div>', unsafe_allow_html=True)
 
